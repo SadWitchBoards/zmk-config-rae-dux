@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define QWERTY_L 0
-#define MINIMAK4_L 1
-#define ISRT_L 2
+#define NUMSYM_L 1
+#define ESC_L 2
 #define NUMPAD_L 3
 #define EDIT_L 4
 #define FSYM_L 5
@@ -356,7 +356,7 @@ behaviors {
             >;
         };
 
-        minimak4_layer {
+        numsym_layer {
             bindings = <
 &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp N5      &kp NUMBER_6      &kp N7         &kp N8      &kp N9      &kp N0
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &kp LS(NUMBER_6)  &kp LS(N7)     &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
@@ -365,7 +365,7 @@ behaviors {
             >;
         };
 
-        isrt_layer {
+        esc_layer {
             bindings = <
 &kp ESCAPE  &kp LS(EQUAL)  &kp D     &kp R     &kp K              &kp Z          &kp F           &kp U         &kp SLASH  &kp SEMI
 &kp PSCRN   &kp EQUAL      &kp PLUS  &kp LBKT  &kp RIGHT_BRACKET  &kp PAGE_UP    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN   &kp RIGHT
